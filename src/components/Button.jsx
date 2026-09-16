@@ -1,0 +1,1 @@
+export default function Button({children,...p}){return <button className="px-6 py-3 rounded-full bg-black text-white hover:scale-105 transition" {...p}>{children}</button>}

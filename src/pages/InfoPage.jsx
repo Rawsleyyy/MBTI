@@ -1,0 +1,2 @@
+import {types} from "../data/mbti";
+export default function InfoPage(){return <main className="p-8 grid md:grid-cols-4 gap-5">{types.map(t=><div className="p-5 rounded-3xl bg-white shadow" key={t.name}><h2 className="text-2xl font-bold">{t.name}</h2><p>{t.description}</p></div>)}</main>}
